@@ -37,6 +37,8 @@ console.log(player);
 player.points = player.points + 50;
 console.log(player.points);
 
+
+//function for receive
 function sayHello(name, numb) {
     for(let i=0; i<numb; i++) {
 console.log("Hello My name is " +name[i]);
@@ -47,3 +49,14 @@ sayHello(names, names.length);
 
 
 
+
+
+
+const player2 = {
+    name: "prot",
+    sayHello : function(fname) {
+        console.log("hello" + " " + fname+ "My name is " + player2.name);
+    }
+}
+
+player2.sayHello("fasd");
