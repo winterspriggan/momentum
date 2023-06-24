@@ -37,13 +37,13 @@ console.log(player);
 player.points = player.points + 50;
 console.log(player.points);
 
-function sayHello(name) {
-console.log("Hello My name is " +name);
+function sayHello(name, numb) {
+    for(let i=0; i<numb; i++) {
+console.log("Hello My name is " +name[i]);
+    }
 }
-
-sayHello("nico");
-sayHello("cy");
-sayHello("backJun");
+const names = ["nico", "cy", "backJun"];
+sayHello(names, names.length);
 
 
 
