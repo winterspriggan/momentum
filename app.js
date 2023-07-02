@@ -60,3 +60,36 @@ const player2 = {
 }
 
 player2.sayHello("fasd");
+
+
+
+const calc = {
+    add: function(a,b) {
+        console.log(a+b);
+    },
+    minus: function(a,b) {
+        console.log(a-b);
+    },
+    divide: function(a,b) {
+        console.log(a/b);
+    },
+    power: function(a,b) {
+        console.log(a**b);
+    }
+}
+
+
+calc.add(1,5);
+calc.minus(10,4);
+calc.divide(20,5);
+calc.power(2,10);
+
+
+
+const age = 96;
+
+function krAge(ageOfForeigner) {
+    return ageOfForeigner +2;
+}
+
+console.log(krAge(age));
