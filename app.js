@@ -93,3 +93,12 @@ function krAge(ageOfForeigner) {
 }
 
 console.log(krAge(age));
+
+const ag3 = parseInt(prompt("How Old Are You?"));
+if(isNaN(ag3)) {
+    console.log("Its Not a Number");
+} else if(ag3 < 18){
+    console.log("You are too young");
+} else {
+    console.log("You can drink");
+}
