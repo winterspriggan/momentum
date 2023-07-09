@@ -95,8 +95,8 @@ function krAge(ageOfForeigner) {
 console.log(krAge(age));
 
 const ag3 = parseInt(prompt("How Old Are You?"));
-if(isNaN(ag3)) {
-    console.log("Its Not a Number");
+if(isNaN(ag3) || ag3<0) {
+    console.log("Please write Real positive Number");
 } else if(ag3 < 18){
     console.log("You are too young");
 } else {
